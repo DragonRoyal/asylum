@@ -25,10 +25,10 @@ Schematic            |  PCB
 ## CAD Model:
 Everything fits together using 4 M3 Heatset inserts and 4 M3x16mm screws. Here's how it looks:
 
-![alt text](assets/CAD.png)
+![Screenshot 2025-01-27 211719](https://github.com/user-attachments/assets/c8eca3a7-d0ad-49ec-87fa-2eafcd7997ae)
+![Screenshot 2025-01-27 211705](https://github.com/user-attachments/assets/61288338-cd65-4beb-baaf-4ae4430ad419)
 
-It was made in fusion360 pretty nifty stuff.
-
+Made in solidworks
 ## Firmware overview
 The firmware for this is written in Arduino. It grabs the weather info using an api request to mateoweather. Then, it uses the Adafruit_GFX library to push the data to the screen
 
@@ -50,15 +50,11 @@ Purchasing from HQ:
 I will be sourcing the following parts with my grant:
 - 1x PCB from JLCPCB
     - $2 for 5x + $1.50 shipping
-- 1x SPDT slide switch [(LCSC)](https://www.lcsc.com/product-detail/Slide-Switches_G-Switch-SS-12E17-G020_C2848909.html) $0.44 (min order 5)
-- 3x 1x8 female headers for my ST7735 display [(LCSC)](https://www.lcsc.com/product-detail/Female-Headers_BOOMELE-Boom-Precision-Elec-2-54-1-8P_C27438.html) $0.70 (min order 10)
+- 1x SPDT slide switch [(ADAFRUIT)](https://www.adafruit.com/product/4219) $2.95
 
-Shipping from LCSC: $7.72 + $3 small order fee
 
-Total before tax: $16.96
+Total before tax: $6.5
 
 I'll also be source the following parts myself since I already have them and would like to help Hack Club:
-- 4x M3x16mm BHCS screws
 - Some solid-core wire to wire the slide switch together
-- 4x M3x5mmx4mm heatset inserts
-
+- 3d PRINT
